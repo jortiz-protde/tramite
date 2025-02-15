@@ -1,0 +1,10 @@
+{
+    "require": {
+      "spipu/html2pdf": "^4.6",
+      "ext-sqlsrv": "*",
+      "ext-json": "*",
+      "dompdf/dompdf": "^0.8.2",
+      "phpmailer/phpmailer": "^6.0",
+      "spatie/async": "^1.5"
+    }
+}
