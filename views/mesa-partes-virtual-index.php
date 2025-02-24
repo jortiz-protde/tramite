@@ -16,7 +16,7 @@ $navExtended = true;
                 <nav class="navbar">
                     <div class="nav-wrapper">
                         <img class="left mr-3" style="height: 100%; margin-right: 0.5rem" width="50" src="https://cdn.apci.gob.pe/dist/images/dtramite__logo.svg" />
-                        <h5 class="page-header truncate left">D-Trámite</h5>
+                        <h5 class="page-header truncate left">STD</h5>
                     </div>
                 </nav>
             </div>

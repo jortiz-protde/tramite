@@ -14,7 +14,7 @@
     <html lang="en">
     <head>
 
-        <title>Sistema de Trámite Digital - D-tramite</title>
+        <title>Sistema de Trámite Documentario</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -64,7 +64,7 @@
                                 <path fill="#e09c35" d="M49.83,108.82h89c-9.11-2.95-18.56-6.44-28.44-10.1-10.54-3.9-21-8.53-30.54-12.9a43.34,43.34,0,0,1-10,12A61.74,61.74,0,0,1,49.83,108.82Z"/>
                             </svg>
                             <figcaption>
-                                <h1>D-Trámite</h1>
+                                <h1>STD</h1>
                             </figcaption>
                         </figure>
                     </a>

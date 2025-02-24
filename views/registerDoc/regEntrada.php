@@ -231,7 +231,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
               <div class="card-body">
                    <div id="registroBarr">
                         <table align="center" cellpadding="3" cellspacing="3" border="0">
-                            <tr><td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial"><b>D-TRÁMITE</b></td></tr>
+                            <tr><td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial"><b>STD</b></td></tr>
                             <tr>
                             <td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;">';
                 echo $img_final;
@@ -330,7 +330,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
                     <div class="card-body">
                         <div id="registroBarr">
                             <table align="center" cellpadding="3" cellspacing="3" border="0">
-                                <tr><td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial"><b>D-TRÁMITE</b></td></tr>
+                                <tr><td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial"><b>STD</b></td></tr>
                                 <tr>
                                     <td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;">Código QR no generado';
                 echo                '</td>
@@ -617,7 +617,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
               <div class="card-body">
                    <div id="registroBarr">
                         <table align="center" cellpadding="3" cellspacing="3" border="0">
-                            <tr><td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial"><b>D-TRÁMITE</b></td></tr>
+                            <tr><td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial"><b>STD</b></td></tr>
                             <tr>
                             <td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;">';
             echo $img_final;

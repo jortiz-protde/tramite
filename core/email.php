@@ -19,13 +19,13 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'd-tramite@apci.gob.pe';                 // SMTP username
+    $mail->Username = 'tramite@protde.gob.pe';                 // SMTP username
     $mail->Password = 'Hacker147';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+    $mail->setFrom('no-reply@apci.gob.pe', 'STD');
     //$mail->addAddress('jatayauri@apci.gob.pe', 'Joe User');     // Add a recipient
     for ($e = 0; $e < count($correos); $e++){
         $mail->addAddress($correos[$e]);
