@@ -133,7 +133,7 @@ function generarHojaIngreso ($codTramite, $estado, $cnx,$url_srv, $mostrarQr = t
                         <table align="center" cellpadding="3" cellspacing="3" border="0">
                             <tr>
                                 <td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial">
-                                    <b>D-TRÁMITE</b>
+                                    <b>STD</b>
                                 </td>
                             </tr>';
     if ($Rrdatos['nFlgClaseDoc'] == 1){
@@ -613,7 +613,7 @@ switch ($_REQUEST['Evento']) {
                 $mail->Password = 'Hacker147';                           // SMTP password
                 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
                 $mail->Port = 465;
-                $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+                $mail->setFrom('no-reply@apci.gob.pe', 'STD');
                 for ($e = 0; $e < count($correos); $e++){
                     $mail->addAddress($correos[$e]);
                 }

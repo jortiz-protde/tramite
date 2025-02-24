@@ -37,7 +37,7 @@ class Email
             $mail->Password = $this->password;                           // SMTP password
             $mail->SMTPSecure = $this->ssl;                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = $this->port;
-            $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+            $mail->setFrom('no-reply@apci.gob.pe', 'STD');
             for ($e = 0; $e < count($correos); $e++){
                 $mail->addAddress($correos[$e]);
             }

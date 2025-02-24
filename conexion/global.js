@@ -1,11 +1,8 @@
 var RutaSIGTIInteroperabilidad = "http://qas.apci.gob.pe/";
-var url_srv = "http://filesp.apci.gob.pe:83/srv-files/";
-var RUTA_DTRAMITE = "https://d-tramite.apci.gob.pe/";
-// var RUTA_DTRAMITE = "http://192.168.1.88/d-tramite/";
-var RutaSIGTID = "http://dev.apci.gob.pe";
-// var RutaSIGTID = "http://localhost:64157";
-var RutaSIGTIDtramite = "http://dev.apci.gob.pe/";
-// var RutaSIGTIDtramite = "http://localhost:64157/";
+var url_srv = "http://89.117.73.61/srv-files/";
+var RUTA_DTRAMITE = "http://89.117.73.61/";
+var RutaSIGTID = "http://89.117.73.61/";
+var RutaSIGTIDtramite = "http://89.117.73.61/";
 var Archivo = {
     Tipo : [
         {
@@ -14,7 +11,5 @@ var Archivo = {
         }
     ]
 }
-var RutaServiciosPide = "https://sso.apci.gob.pe";
-var RutaServiciosCasilla = "http://192.168.1.43:8090/api";
-
-// RUTA_SERVICIO_CASILLA
+var RutaServiciosPide = "http://89.117.73.61/";
+var RutaServiciosCasilla = "http://89.117.73.61/";

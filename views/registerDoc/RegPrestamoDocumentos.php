@@ -68,7 +68,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
                 $mail->Port = 465;                                    // TCP port to connect to
 
                 //Recipients
-                $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+                $mail->setFrom('no-reply@apci.gob.pe', 'STD');
                 //$mail->addAddress('jatayauri@apci.gob.pe', 'Joe User');     // Add a recipient
                 for ($e = 0; $e < count($correos); $e++){
                     $mail->addAddress($correos[$e]);
@@ -219,7 +219,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
                 $mail->Port = 465;                                    // TCP port to connect to
 
                 //Recipients
-                $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+                $mail->setFrom('no-reply@apci.gob.pe', 'STD');
                 //$mail->addAddress('jatayauri@apci.gob.pe', 'Joe User');     // Add a recipient
                 for ($e = 0; $e < count($correos); $e++){
                     $mail->addAddress($correos[$e]);
@@ -302,7 +302,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
                 $mail->Port = 465;                                    // TCP port to connect to
 
                 //Recipients
-                $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+                $mail->setFrom('no-reply@apci.gob.pe', 'STD');
                 //$mail->addAddress('jatayauri@apci.gob.pe', 'Joe User');     // Add a recipient
                 for ($e = 0; $e < count($correos); $e++){
                     $mail->addAddress($correos[$e]);
@@ -359,7 +359,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
                 $mail->Port = 465;                                    // TCP port to connect to
 
                 //Recipients
-                $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+                $mail->setFrom('no-reply@apci.gob.pe', 'STD');
                 //$mail->addAddress('jatayauri@apci.gob.pe', 'Joe User');     // Add a recipient
                 for ($e = 0; $e < count($correos); $e++){
                     $mail->addAddress($correos[$e]);
@@ -414,7 +414,7 @@ if ($_SESSION['CODIGO_TRABAJADOR'] !== ''){
                     $mail->Port = 465;                                    // TCP port to connect to
 
                     //Recipients
-                    $mail->setFrom('no-reply@apci.gob.pe', 'D-Trámite');
+                    $mail->setFrom('no-reply@apci.gob.pe', 'STD');
                     //$mail->addAddress('jatayauri@apci.gob.pe', 'Joe User');     // Add a recipient
                     for ($e = 0; $e < count($correos); $e++){
                         $mail->addAddress($correos[$e]);

@@ -145,7 +145,7 @@ $RsNom  = sqlsrv_fetch_array($rsNom);
                         <path fill="#e09c35" d="M49.83,108.82h89c-9.11-2.95-18.56-6.44-28.44-10.1-10.54-3.9-21-8.53-30.54-12.9a43.34,43.34,0,0,1-10,12A61.74,61.74,0,0,1,49.83,108.82Z"/>
                     </svg>
                     <figcaption>
-                        <h1>D-Trámite</h1>
+                        <h1>STD</h1>
                     </figcaption>
                 </figure>
             </a>

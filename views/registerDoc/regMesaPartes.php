@@ -127,7 +127,7 @@ function generarHojaIngreso ($codTramite, $estado, $cnx) {
                         <table align="center" cellpadding="3" cellspacing="3" border="0">
                             <tr>
                                 <td align="center" style="border-right:1px solid #043D75;border-left:1px solid #043D75;border-top:1px solid #043D75;border-bottom:1px solid #043D75;font-size:12px;font-family:arial">
-                                    <b>D-TRÁMITE</b>
+                                    <b>STD</b>
                                 </td>
                             </tr>';
     if ($Rrdatos['nFlgClaseDoc'] == 1){
