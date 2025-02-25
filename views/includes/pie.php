@@ -1,12 +1,3 @@
-
-<!-- JQuery -->
-<!--<script type="text/javascript" src="js_select/jquery-3.3.1.min.js"></script>-->
-<!-- Bootstrap tooltips -->
-<!--<script type="text/javascript" src="js_select/popper.min.js"></script>-->
-<!-- Bootstrap core JavaScript -->
-<!--<script type="text/javascript" src="js_select/bootstrap.min.js"></script>-->
-<!-- MDB core JavaScript -->
-<!-- <script type="text/javascript" src="js_select/mdb.min.js"></script>-->
 <?php
 $hora= date('H')-1;
 
@@ -66,10 +57,8 @@ if($hora<12){
             <div class="input-field col s12 m12 l6">
                 <select id="ddlOficina" name="ddlOficina">
                     <?php
-                    //include("../../conexion/conexion.php");
                     $sqlOfi="select distinct (select cNomOficina from Tra_M_Oficinas where iCodOficina=o.iCodOficina) as cDescOficina,o.iCodOficina  from Tra_M_Perfil_Ususario as o where iCodTrabajador='".$_SESSION['CODIGO_TRABAJADOR']."'";
                     $rsOfi=sqlsrv_query($cnx,$sqlOfi);
-                    //echo $sqlOfi;
                     while ($RsTem=sqlsrv_fetch_array($rsOfi)) {
                         echo '<option value="'.$RsTem['iCodOficina'].'">'.rtrim($RsTem['cDescOficina']).'</option>';
                     }

@@ -1,12 +1,15 @@
 
 <?php
-$serverName = "192.168.1.47";
+
+$serverName = "212.28.190.42";
 $connectionOptions = array(
     "Database" => "DB_SITDD",
-    "Uid" => "UserTramite_App",
-    "PWD" => "1Ni3r00Dt",
-    'CharacterSet' => 'UTF-8'
+    "Uid" => "user_std",
+    "PWD" => "pr0td3_2025",
+    'CharacterSet' => 'UTF-8',
+    "TrustServerCertificate" => true
 );
+
 $datos = array(
     "server"    => $serverName,
     "opciones"  => $connectionOptions

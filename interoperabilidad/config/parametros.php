@@ -1,9 +1,9 @@
 
 <?php
-// define("URLPAGE","http://d-tramite.apci.gob.pe/");
-// define("RUTA_DTRAMITE","http://d-tramite.apci.gob.pe/");
+// define("URLPAGE","http://89.117.73.61/");
+// define("RUTA_DTRAMITE","http://89.117.73.61/");
 
-// define("NGINX", "http://files.apci.gob.pe:83/srv-files/");
+// define("NGINX", "http://89.117.73.61/srv-files/");
 // define("PHP_NGINX", "curl-srv.php");
 // define("COMPONENTE_IOTD", "ComponentePideDesa.wsInterop");
 // define("RUC", "20504915523");

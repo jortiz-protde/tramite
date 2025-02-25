@@ -1,9 +1,10 @@
 <?php
-$serverName = "192.168.1.2";
+$serverName = "212.28.190.42";
 $connectionOptions = array(
-    "Database" => "DB_TRAMITE",
-    "Uid" => "usr",
-    "PWD" => "********",
-    'CharacterSet' => 'UTF-8'
+    "Database" => "DB_SITDD",
+    "Uid" => "user_std",
+    "PWD" => "pr0td3_2025",
+    'CharacterSet' => 'UTF-8',
+    "TrustServerCertificate" => true
 );
 $cnx = sqlsrv_connect($serverName, $connectionOptions);

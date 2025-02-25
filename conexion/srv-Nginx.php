@@ -1,8 +1,7 @@
 <?php
-$host = 'filesp.apci.gob.pe';
-// $host = '192.168.1.15';
+$host = 'http://89.117.73.61';
 $port = '83';
 $path = '/srv-files/';
 $fileUpload = 'curl-srv.php';
 $url_srv = $host . $path;
-$hostUpload = 'filesp.apci.gob.pe';
+$hostUpload = 'http://89.117.73.61';
